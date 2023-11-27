@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container .navbar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(100 92 255);
+  width: 100%;
+  height: 80px;
+  color: white;
+}
+img {
+  width: 90px;
+}
+.container .phones {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+.container .phones .phone {
+  display: flex;
+  margin-top: 25px;
+  width: 800px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+@media (max-width: 800px) {
+  .container .phones .phone {
+    width: 400px;
+  }
+  .container .bottom {
+    width: 400px;
+  }
+  .container .bottom Button {
+    margin-left: 105px;
+  }
+}
+.container .phones .phone .left-side {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.container .phones .phone .right-side {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.container .phones .phone .right-side .btns {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: rgb(100 92 255);
+}
+.container .phones h1 {
+  text-align: center;
+  font-size: 3.5rem;
+}
+.empty {
+  margin: 30px 0 0 22px;
+  opacity: 0.5;
+}
+.bottom {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  width: 800px;
+}
+.bottom .bottom-text .price {
+  background-color: rgb(100 92 255);
+  padding: 3px;
+  border-radius: 10px;
+  color: white;
+  width: 130px;
+  text-align: center;
+  height: 40px;
+}
+.bottom .bottom-text {
+  display: flex;
+  justify-content: space-between;
+}
+.bottom Button {
+  width: 125px;
+  background-color: rgb(193 190 255);
+  border: 1px solid white;
+  margin: 20px 0 0 330px;
+  margin-bottom: 30px;
+}
+hr {
+  background: rgb(203 213 225);
+  border-color: transparent;
+  border-width: 1px;
+  width: 800px;
+  margin-bottom: 20px;
+}
