@@ -46,6 +46,7 @@ img {
   }
   .container {
     height: 100vh;
+    background-color: red;
   }
 }
 .container .phones .phone .left-side {
