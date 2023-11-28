@@ -44,6 +44,9 @@ img {
   .container .bottom Button {
     margin-left: 120px;
   }
+  .container {
+    height: 100vh;
+  }
 }
 .container .phones .phone .left-side {
   display: flex;
